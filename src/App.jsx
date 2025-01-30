@@ -7,7 +7,9 @@ import { motion } from "framer-motion";
 
 const { Content } = Layout;
 
-const apiUrl = import.meta.env.VITE_API_URL;
+const apiUrl = 'https://f229b5b43d4378e9.mokky.dev/items';  // API endpoint
+
+// Главный компонент приложения
 const App = () => {
   const [debts, setDebts] = useState([]);
   const [isFormVisible, setIsFormVisible] = useState(false);
